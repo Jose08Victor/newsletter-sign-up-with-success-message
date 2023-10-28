@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/images/favicon-32x32.png" type="image/x-icon">
+    <title>Newsletter sign up with success message</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/form.css">
+    <link rel="stylesheet" href="src/css/validation-accepted.css">
+</head>
+
+<body>
+    <main class="container">
+        <section class="sign-up-form disable">
+            <div class="sign-up">
+                <h1 class="title">Stay updated!</h1>
+
+                <p class="paragraph">Join 60,000+ product managers receiving monthly updates on:</p>
+
+                <ul class="qualities">
+                    <li><p class="paragraph">Product discovery and building what matters</p></li>
+                    
+                    <li><p class="paragraph">Measuring to ensure updates are a success</p></li>
+                    <li><p class="paragraph">And much more!</p></li>
+                </ul>
+
+                <form class="form invalid">
+                    <label for="email">Email address</label>
+                    <input type="email" name="email" id="email" placeholder="email@company.com">
+
+                    <button id="btn">Subscribe to monthly newsletter</button>
+                </form>
+            </div>
+
+            <picture>
+                <source srcset="src/images/illustration-sign-up-desktop.svg" media="(min-width: 961px)">
+
+                <img src="src/images/illustration-sign-up-mobile.svg" alt="Illustration sign-up">
+            </picture>
+
+        </section>
+
+        <section class="success-message">
+            Thanks for subscribing!
+
+            A confirmation email has been sent to ash@loremcompany.com.
+            Please open it and click the button inside to confirm your subscription.
+
+            Dismiss message
+        </section>
+    </main>
+
+</body>
+
+</html>

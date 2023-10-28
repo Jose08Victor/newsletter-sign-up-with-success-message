@@ -1,0 +1,15 @@
+:root {
+    --errorMessageColor: hsl(4, 100%, 67%);
+
+    --buttonColor: hsl(234, 29%, 20%);
+
+    --bgColor: hsl(235, 18%, 26%);
+
+    --inputColor: hsl(231, 7%, 60%);
+
+    --sectionColor: hsl(0, 0%, 100%);
+
+    --gradientPrimaryColor: 90deg, rgba(255, 82, 123, 1) 0%;
+
+    --gradientSecondColor: rgba(255, 106, 58, 1) 100%;
+}

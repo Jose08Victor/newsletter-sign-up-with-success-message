@@ -1,0 +1,137 @@
+.container .sign-up-form.disable {
+    display: none;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bgColor);
+}
+
+.container .sign-up-form {
+    display: flex;
+    align-items: center;
+    background-color: var(--sectionColor);
+    max-width: 928px;
+    padding: 25px;
+    border-radius: 35px;
+    gap: 20px;
+}
+
+.container .sign-up-form .sign-up {
+    max-width: 375px;
+    margin: 0 42px 0 40px;
+}
+
+.container .sign-up-form .sign-up .title {
+    font-size: 55.8px;
+    margin-bottom: 18px;
+}
+
+.container .sign-up-form .sign-up .paragraph {
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 21px;
+}
+
+.container .sign-up-form .sign-up .qualities {
+    margin-bottom: 38px;
+}
+
+.container .sign-up-form .sign-up .qualities li .paragraph {
+    background: url(../images/icon-list.svg) no-repeat center left;
+    margin-bottom: 9px;
+    padding-left: 37px;
+}
+
+.container .sign-up-form .sign-up .form label {
+    font-size: 11.5px;
+    letter-spacing: .4px;
+    font-weight: 700;
+}
+
+.container .sign-up-form .sign-up .form input,
+.container .sign-up-form .sign-up .form button {
+    width: 100%;
+    height: 55px;
+    border-radius: 8px;
+}
+
+.container .sign-up-form .sign-up .form input {
+    margin: 9px 0 25px;
+    border: 1px solid var(--inputColor);
+    font-size: 16px;
+    padding-left: 22px;
+    font-weight: 400;
+    cursor: pointer;
+    outline: 0;
+}
+
+.container .sign-up-form .sign-up .form button {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--buttonColor);
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.container .sign-up-form .sign-up .form button:hover {
+    background: linear-gradient(90deg, rgba(255, 82, 123, 1) 0%, rgba(255, 106, 58, 1) 100%);
+}
+
+/* Error State */
+/* .container .sign-up-form .sign-up .form.invalid label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .sign-up-form .sign-up .form.invalid label:after{
+content: 'Valid email required';
+color: var(--errorMessageColor);
+font-size: 11.2px;
+} 
+
+.container .sign-up-form .sign-up .form.invalid input {
+ border: 1px solid var(--errorMessageColor);
+ background-color: hsl(4, 100%, 67%, .2);
+ color: var(--errorMessageColor);
+} */
+
+@media (max-width: 960px) {
+    .container .sign-up-form {
+        flex-direction: column-reverse;
+        margin: 20px 0;
+    }
+
+    .container .sign-up-form .sign-up {
+        margin: 0;
+        padding: 13px 22.5px;
+    }
+
+    .container .sign-up-form .sign-up .title {
+        font-size: 40px;
+    }
+
+    .container .sign-up-form .sign-up .qualities li .paragraph {
+        background-position: top 2px left;
+    }
+
+    .container .sign-up-form img {
+        width: 100%;
+        border-radius: 35px;
+    }
+}
+
+@media (max-width: 430px) {
+
+    .container .sign-up-form,
+    .container .sign-up-form img {
+        border-radius: 0;
+        padding: 0;
+        margin: 0;
+    }
+}
