@@ -14,7 +14,7 @@
 
 <body>
     <main class="container">
-        <section class="sign-up-form disable">
+        <section class="sign-up-form">
             <div class="sign-up">
                 <h1 class="title">Stay updated!</h1>
 
@@ -31,7 +31,7 @@
                     <label for="email">Email address</label>
                     <input type="email" name="email" id="email" placeholder="email@company.com">
 
-                    <button id="btn">Subscribe to monthly newsletter</button>
+                    <button id="btn-1">Subscribe to monthly newsletter</button>
                 </form>
             </div>
 
@@ -43,16 +43,18 @@
 
         </section>
 
-        <section class="success-message">
-            Thanks for subscribing!
+        <section class="success-message disable">
+            <img src="src/images/icon-success.svg" alt="Icon Success">
 
-            A confirmation email has been sent to ash@loremcompany.com.
-            Please open it and click the button inside to confirm your subscription.
+            <h1 class="title">Thanks for subscribing!</h1>
 
-            Dismiss message
+            <p class="paragraph">
+                A confirmation email has been sent to <strong>ash@loremcompany.com</strong>. Please open it and click the button inside to confirm your subscription.
+            </p>
+
+            <button id="btn-2">Dismiss message</button>
         </section>
     </main>
-
 </body>
 
 </html>

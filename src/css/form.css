@@ -27,12 +27,14 @@
 
 .container .sign-up-form .sign-up .title {
     font-size: 55.8px;
+    color: hsl(236, 25%, 21%);
     margin-bottom: 18px;
 }
 
 .container .sign-up-form .sign-up .paragraph {
     font-weight: 400;
     line-height: 25px;
+    color: hsl(236, 25%, 21%);
     margin-bottom: 21px;
 }
 
