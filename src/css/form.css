@@ -48,20 +48,20 @@
     padding-left: 37px;
 }
 
-.container .sign-up-form .sign-up .form label {
+.container .sign-up-form .sign-up #form label {
     font-size: 11.5px;
     letter-spacing: .4px;
     font-weight: 700;
 }
 
-.container .sign-up-form .sign-up .form input,
-.container .sign-up-form .sign-up .form button {
+.container .sign-up-form .sign-up #form input,
+.container .sign-up-form .sign-up #form button {
     width: 100%;
     height: 55px;
     border-radius: 8px;
 }
 
-.container .sign-up-form .sign-up .form input {
+.container .sign-up-form .sign-up #form input {
     margin: 9px 0 25px;
     border: 1px solid var(--inputColor);
     font-size: 16px;
@@ -71,7 +71,7 @@
     outline: 0;
 }
 
-.container .sign-up-form .sign-up .form button {
+.container .sign-up-form .sign-up #form button {
     font-size: 16px;
     font-weight: 500;
     background-color: var(--buttonColor);
@@ -81,27 +81,27 @@
     border: none;
 }
 
-.container .sign-up-form .sign-up .form button:hover {
+.container .sign-up-form .sign-up #form button:hover {
     background: linear-gradient(90deg, rgba(255, 82, 123, 1) 0%, rgba(255, 106, 58, 1) 100%);
 }
 
-/* Error State */
-/* .container .sign-up-form .sign-up .form.invalid label {
+                    /* Error State */
+.container .sign-up-form .sign-up #form.invalid label {
     display: flex;
     justify-content: space-between;
 }
 
-.container .sign-up-form .sign-up .form.invalid label:after{
+.container .sign-up-form .sign-up #form.invalid label:after{
 content: 'Valid email required';
 color: var(--errorMessageColor);
 font-size: 11.2px;
 } 
 
-.container .sign-up-form .sign-up .form.invalid input {
+.container .sign-up-form .sign-up #form.invalid input {
  border: 1px solid var(--errorMessageColor);
  background-color: hsl(4, 100%, 67%, .2);
  color: var(--errorMessageColor);
-} */
+}
 
 @media (max-width: 960px) {
     .container .sign-up-form {
